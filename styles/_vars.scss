@@ -1,4 +1,4 @@
-// Переменные цветов:
+// Variables:
 $firm-red: #F65858;
 $firm-green: #00798a;
 $light-green: #97CAD11F;
@@ -8,7 +8,7 @@ $light-gray: #d9d9d9;
 $white: #fff;
 $footer-white: #c5c4c4;
 
-// Зеленая кнопка:
+// Green button:
 @mixin green-button($firm-green, $white) {
     background-color: $firm-green;
     color: $white;
@@ -31,7 +31,7 @@ $footer-white: #c5c4c4;
     // }
 }
 
-// Красная кнопка:
+// Red button:
 @mixin red-button($firm-red, $white) {
     background-color: $firm-red;
     color: $white;
@@ -54,14 +54,14 @@ $footer-white: #c5c4c4;
     // }
 }
 
-// Подзаголовок
+// Subtitle
 @mixin page-subtitle() {
     font-weight: 500;
     font-size: 28px;
     line-height: 129%;
 }
 
-// Основной текст
+// Main text
 @mixin page-text() {
     font-weight: 400;
     font-size: 16px;
@@ -69,7 +69,7 @@ $footer-white: #c5c4c4;
     margin: 24px 0;
 }
 
-// onlineEvent шильда
+// onlineEvent nameplate
 @mixin onlineEvent-label() {
     position: absolute;
     font-size: 12px;
